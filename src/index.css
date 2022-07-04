@@ -45,8 +45,12 @@ ul {
 
 a {
   font-weight: 500;
-  color: var(--text-link);
   text-decoration: none;
+  color: var(--text-link);
+}
+
+a:hover {
+  opacity: 0.5;
 }
 
 #profile {
