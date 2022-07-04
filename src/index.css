@@ -30,6 +30,11 @@ html {
   justify-content: flex-start;
   padding: var(--spacing);
   gap: var(--spacing);
+  background-image: url('assets/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 p,
