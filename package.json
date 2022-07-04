@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --outDir docs",
+    "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy",
     "preview": "vite preview"
   },
   "dependencies": {
