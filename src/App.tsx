@@ -37,7 +37,6 @@ const App: FC = () => {
       </p>
       <h2>EXPERIENCE</h2>
       <ul>
-        <li>Independent Software Contractor (June 2017 - Present)</li>
         <li>
           Senior Software Engineer -{' '}
           <a href="https://rivian.com/" target="_blank">
@@ -53,7 +52,7 @@ const App: FC = () => {
           (July 2021 - October 2021)
         </li>
         <li>
-          Software Engineer -
+          Software Engineer -{' '}
           <a href="https://intellivision.com/" target="_blank">
             Intellivision Entertainment
           </a>{' '}
