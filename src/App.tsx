@@ -7,7 +7,7 @@ const App: FC = () => {
         <img id="profile" src="profile.jpg" alt="profile" />
         <div>
           <h1>QUANG NGUYEN</h1>
-          <p>(he/him)</p>
+          <p>Engineer | Self-Taught | Tech Nerd</p>
         </div>
       </div>
       <h2>WHAT I DO</h2>
