@@ -6,11 +6,11 @@ const App: FC = () => {
       <div className="heading">
         <img id="profile" src="profile.jpg" alt="profile" />
         <div>
-          <h1>QUANG NGUYEN</h1>
+          <h1>Quang Nguyen</h1>
           <p>Software Engineer | Self-Taught | Tech Nerd</p>
         </div>
       </div>
-      <h2>WHAT I DO</h2>
+      <h2>Hi, I'm Quang.</h2>
       <ul>
         <li>
           I'm a full stack engineer based in the San Francisco Bay Area and currently working as a Senior Software
@@ -29,13 +29,13 @@ const App: FC = () => {
           You can find my resume <a href="/resume.pdf">here</a>.
         </li>
       </ul>
-      <h2>SERVICES</h2>
+      <h2>Services</h2>
       <p>
         I offer software development consulting services to help you build the product of your dream and achieve your
         goal. I can build apps / websites based on specific requirements. I can also help you with your exsting
         projects, such as fixings bugs, adding new features or investigating new technical solutions, etc.
       </p>
-      <h2>EXPERIENCE</h2>
+      <h2>Experience</h2>
       <ul>
         <li>
           Senior Software Engineer -{' '}
@@ -66,7 +66,7 @@ const App: FC = () => {
           (April 2020 - July 2021)
         </li>
       </ul>
-      <h2>CONNECT</h2>
+      <h2>Connect with me</h2>
       <div className="connect">
         <a href="https://twitter.com/quangnguyen1501" target="_blank">
           <img src="twitter.png" alt="twitter.png" />

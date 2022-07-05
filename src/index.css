@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
   --spacing: 1.6rem;
@@ -9,7 +9,7 @@
   margin: 0;
   color: white;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto', sans-serif;
 }
 
 body,
@@ -29,6 +29,11 @@ html {
   display: grid;
   padding: var(--spacing);
   gap: var(--spacing);
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.2rem;
 }
 
 p,
@@ -71,7 +76,7 @@ a:hover {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: calc(var(--spacing) * 2 / 3);
+  gap: 1rem;
 }
 
 .connect img {
