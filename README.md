@@ -1,1 +1,1 @@
-https://quangnguyen.org/
+https://quangnguyen.org
