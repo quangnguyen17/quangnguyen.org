@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { SinglePage } from './pages/SinglePage'
+import { SinglePage } from './SinglePage'
 
 const App: FC = () => {
   return <SinglePage />

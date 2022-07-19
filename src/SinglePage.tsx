@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import './styles.css'
+import './SinglePage.css'
 
 export const SinglePage: FC = () => (
   <div className="App">
