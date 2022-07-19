@@ -17,7 +17,7 @@ html {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/background.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('assets/background.jpg');
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
@@ -58,25 +58,21 @@ a:hover {
 }
 
 #profile {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 5rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 3rem;
 }
 
 .profile {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: var(--spacing);
+  gap: calc(var(--spacing) * 2 / 3);
 }
 
 .heading {
   display: grid;
-  gap: calc(var(--spacing) * 1 / 4);
-}
-
-.headline {
-  opacity: 0.9;
+  gap: 0.2rem;
 }
 
 .connect {

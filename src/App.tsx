@@ -7,13 +7,7 @@ const App: FC = () => {
         <img id="profile" src="profile.jpg" alt="profile" />
         <div className="heading">
           <h1>Quang Nguyen</h1>
-          <p className="headline">
-            Senior Software Engineer
-            <br />
-            Self-Taught
-            <br />
-            Tech Nerd
-          </p>
+          <p className="headline">Senior Software Engineer</p>
         </div>
       </div>
       <ul>
@@ -71,7 +65,7 @@ const App: FC = () => {
           (April 2020 - July 2021)
         </li>
       </ul>
-      <h2 className="headline">Connect with me</h2>
+      <h2 className="headline">Connect</h2>
       <div className="connect">
         <a href="https://twitter.com/quangnguyen1501" target="_blank">
           <img src="twitter.png" alt="twitter.png" />
