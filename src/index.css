@@ -33,7 +33,6 @@ html {
 
 h1 {
   font-size: 2.2rem;
-  margin-bottom: 0.2rem;
 }
 
 p,
@@ -59,16 +58,25 @@ a:hover {
 }
 
 #profile {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 3rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--spacing);
 }
 
 .heading {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: calc(var(--spacing) * 2 / 3);
+  display: grid;
+  gap: calc(var(--spacing) * 1 / 4);
+}
+
+.headline {
+  opacity: 0.9;
 }
 
 .connect {
@@ -76,12 +84,12 @@ a:hover {
   flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
+  gap: calc(var(--spacing) * 1 / 4);
 }
 
 .connect img {
   display: inline;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   filter: invert(1);
 }
