@@ -12,16 +12,16 @@ export const SinglePage: FC = () => (
     </div>
     <ul>
       <li>
-        I'm a full stack engineer based in the San Francisco Bay Area and currently working as a Senior Software
-        Engineer at{' '}
+        I'm a Senior Software Engineer at{' '}
         <a href="https://rivian.com/" target="_blank">
           Rivian
-        </a>
-        .
+        </a>{' '}
+        based in the San Francisco Bay Area.
       </li>
       <li>
-        I have +5 years of experience building real-world applications and dynamic backend systems in various industries
-        from telecommunication, entertainment and automotive.
+        +5 years of experience building real-world applications and dynamic backend systems using various tech stacks;
+        wore multiple hats while juggling at numerous startups in the past; experienced working in various industries
+        from telecommunication, entertainment and now automotive.
       </li>
       <li>Have an app idea but don't know where to start? I can help with that, connect with me and we'll chat.</li>
       <li>
