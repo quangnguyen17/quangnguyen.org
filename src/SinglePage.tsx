@@ -24,30 +24,27 @@ const Header = () => (
   </header>
 )
 
-const Bio = () => (
-  <div className="bio">
-    <p>
-      <span>I'm a Senior Software Engineer at</span>
-      <span> </span>
-      <a href="https://rivian.com/" target="_blank">
-        Rivian
-      </a>{' '}
-      based in the San Francisco Bay Area.
-    </p>
-    <p>
-      +5 years of experience building real-world applications and dynamic backend systems using
-      various tech stacks; wore multiple hats while juggling at numerous startups in the past;
-      experienced working in various industries from telecommunication, entertainment and now
-      automotive.
-    </p>
-    <p>
-      You can find my resume <a href="/resume.pdf">here</a>.
-    </p>
-  </div>
-)
-
-const Services = () => (
-  <>
+const Body = () => (
+  <main>
+    <div className="bio">
+      <p>
+        <span>I'm a Senior Software Engineer at</span>
+        <span> </span>
+        <a href="https://rivian.com/" target="_blank">
+          Rivian
+        </a>{' '}
+        based in the San Francisco Bay Area.
+      </p>
+      <p>
+        +5 years of experience building real-world applications and dynamic backend systems using
+        various tech stacks; wore multiple hats while juggling at numerous startups in the past;
+        experienced working in various industries from telecommunication, entertainment and now
+        automotive.
+      </p>
+      <p>
+        You can find my resume <a href="/resume.pdf">here</a>.
+      </p>
+    </div>
     <h2 className="headline">Services</h2>
     <div
       style={{
@@ -73,13 +70,8 @@ const Services = () => (
         etc.
       </p>
     </div>
-  </>
-)
-
-const Connect = () => (
-  <>
     <h2 className="headline">Social</h2>
-    <div className="connect">
+    <div className="social">
       <a href="https://github.com/quangnguyen17" target="_blank">
         <img className="github" src="github.png" alt="github.png" />
       </a>
@@ -90,7 +82,7 @@ const Connect = () => (
         <img className="linkedin" src="linkedin.png" alt="linkedin.png" />
       </a>
     </div>
-  </>
+  </main>
 )
 
 const Footer = () => (
@@ -105,14 +97,8 @@ const Footer = () => (
 export const SinglePage: FC = () => (
   <div className="App">
     <Banner />
-    <div className="body">
-      <Header />
-      <div className="content">
-        <Bio />
-        <Services />
-        <Connect />
-      </div>
-      <Footer />
-    </div>
+    <Header />
+    <Body />
+    <Footer />
   </div>
 )
