@@ -2,6 +2,7 @@
 
 :root {
   --spacing: 1.6rem;
+  --border: 0.5px solid rgba(255, 255, 255, 0.75);
 }
 
 * {
@@ -33,7 +34,7 @@ html {
 
 header {
   padding: var(--spacing);
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.75);
+  border-bottom: var(--border);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -57,7 +58,7 @@ header {
 
 footer {
   padding: var(--spacing);
-  border-top: 0.5px solid rgba(255, 255, 255, 0.75);
+  border-top: var(--border);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -149,4 +150,14 @@ footer a {
 
 .banner * {
   color: black;
+}
+
+.services {
+  margin: 16px 0;
+  border: var(--border);
+}
+
+.services p {
+  padding: 12px;
+  border-bottom: var(--border);
 }

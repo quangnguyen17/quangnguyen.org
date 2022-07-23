@@ -49,23 +49,28 @@ const Bio = () => (
 const Services = () => (
   <>
     <h2 className="headline">Services</h2>
-    <div>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-start',
+        alignItems: 'flex-start',
+      }}
+    >
+      <p> These are the consulting services I offer:</p>
+      <div className="services">
+        <p>E-commerce</p>
+        <p>Website</p>
+        <p>Web Apppcation</p>
+        <p>Mobile Apppcation</p>
+        <p>CRM System</p>
+        <p>Software as a service (SaaS)</p>
+        <p>Platform as a service (PaaS)</p>
+      </div>
+      <p>I can help you tailor your idea into actual products, and build it from scratch.</p>
       <p>
-        These are the consulting services I offer:
-        <ul>
-          <li>E-commerce</li>
-          <li>Website</li>
-          <li>Web Application</li>
-          <li>Mobile Application</li>
-          <li>CRM System</li>
-          <li>Software as a service (SaaS)</li>
-          <li>Platform as a service (PaaS)</li>
-        </ul>
-        <p>I can help you tailor your idea into actual products, and build it from scratch.</p>
-        <p>
-          I can help you with your exsting projects, such as fixings bugs, implementing new
-          features, etc.
-        </p>
+        I can help you with your exsting projects, such as fixings bugs, implementing new features,
+        etc.
       </p>
     </div>
   </>
