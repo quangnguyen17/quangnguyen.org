@@ -9,7 +9,7 @@ const Banner = () => (
       <a href="mailto:wan15112001@gmail.com" target="_blank">
         Email me
       </a>{' '}
-      and we'll chat.
+      and we'll chat!
     </p>
   </div>
 )
@@ -48,13 +48,24 @@ const Bio = () => (
 
 const Services = () => (
   <>
-    <h2 className="headline">Services I Offer</h2>
+    <h2 className="headline">Services</h2>
     <div>
       <p>
-        I offer software development consulting services to help you build the product of your dream
-        and achieve your goal. I can build apps / websites based on specific requirements. I can
-        also help you with your exsting projects, such as fixings bugs, adding new features or
-        investigating new technical solutions, etc.
+        These are the consulting services I offer:
+        <ul>
+          <li>E-commerce</li>
+          <li>Website</li>
+          <li>Web Application</li>
+          <li>Mobile Application</li>
+          <li>CRM System</li>
+          <li>Software as a service (SaaS)</li>
+          <li>Platform as a service (PaaS)</li>
+        </ul>
+        <p>I can help you tailor your idea into actual products, and build it from scratch.</p>
+        <p>
+          I can help you with your exsting projects, such as fixings bugs, implementing new
+          features, etc.
+        </p>
       </p>
     </div>
   </>
@@ -62,7 +73,7 @@ const Services = () => (
 
 const Connect = () => (
   <>
-    <h2 className="headline">Connect With Me</h2>
+    <h2 className="headline">Social</h2>
     <div className="connect">
       <a href="https://github.com/quangnguyen17" target="_blank">
         <img className="github" src="github.png" alt="github.png" />
@@ -89,12 +100,14 @@ const Footer = () => (
 export const SinglePage: FC = () => (
   <div className="App">
     <Banner />
-    <Header />
-    <main>
-      <Bio />
-      <Services />
-      <Connect />
-    </main>
-    <Footer />
+    <div className="body">
+      <Header />
+      <div className="content">
+        <Bio />
+        <Services />
+        <Connect />
+      </div>
+      <Footer />
+    </div>
   </div>
 )
