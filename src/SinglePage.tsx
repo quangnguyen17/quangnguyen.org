@@ -26,10 +26,10 @@ const Header = () => (
 
 const Body = () => (
   <main>
+    <h2 className="headline">Hi, I'm Quang.</h2>
     <div className="bio">
       <p>
-        <span>I'm a Senior Software Engineer at</span>
-        <span> </span>
+        <span>Senior Software Engineer at</span>{' '}
         <a href="https://rivian.com/" target="_blank">
           Rivian
         </a>{' '}
@@ -46,29 +46,17 @@ const Body = () => (
       </p>
     </div>
     <h2 className="headline">Services</h2>
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'flex-start',
-        alignItems: 'flex-start',
-      }}
-    >
-      <p> These are the consulting services I offer:</p>
-      <div className="services">
-        <p>E-commerce</p>
-        <p>Website</p>
-        <p>Web Apppcation</p>
-        <p>Mobile Apppcation</p>
-        <p>CRM System</p>
-        <p>Software as a service (SaaS)</p>
-        <p>Platform as a service (PaaS)</p>
-      </div>
-      <p>I can help you tailor your idea into actual products, and build it from scratch.</p>
-      <p>
-        I can help you with your exsting projects, such as fixings bugs, implementing new features,
-        etc.
-      </p>
+    <div className="services">
+      <p>E-commerce</p>
+      <p>Website</p>
+      <p>Web Apppcation</p>
+      <p>Mobile Apppcation</p>
+      <p>CRM System</p>
+      <p>Software as a service (SaaS)</p>
+      <p>Platform as a service (PaaS)</p>
+      <p>Mock Interview (Front End, Back End and System Design)</p>
+      <p>1:1 Ask Me Anything</p>
+      <p>1:1 Computer Science Tutoring</p>
     </div>
     <h2 className="headline">Social</h2>
     <div className="social">
