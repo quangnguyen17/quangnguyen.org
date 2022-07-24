@@ -19,7 +19,7 @@ const Header = () => (
       <h1>QUANG NGUYEN</h1>
       <p>Senior Software Engineer</p>
     </div>
-    <img id="profile" src="profile.jpg" alt="profile" />
+    <img id="profile" src="profile.jpg" alt="profile.jpg" />
   </header>
 )
 
@@ -27,6 +27,10 @@ const Body = () => (
   <main>
     <h2 className="headline">Hi, I'm Quang.</h2>
     <div className="bio">
+      <p>
+        An independent contractor/consultant offering a variety of software development services and
+        online learning to help others learn more about tech.
+      </p>
       <p>
         <span>Senior Software Engineer at</span>{' '}
         <a href="https://rivian.com/" target="_blank">
@@ -41,7 +45,7 @@ const Body = () => (
         automotive.
       </p>
       <p>
-        You can find my resume <a href="/resume.pdf">here</a>.
+        Here's my <a href="/resume.pdf">resume</a>.
       </p>
     </div>
     <h2 className="headline">Services</h2>
