@@ -61,6 +61,9 @@ const Body = () => (
       <a href="https://github.com/quangnguyen17" target="_blank">
         <img className="github" src="github.png" alt="github.png" />
       </a>
+      <a href="https://www.instagram.com/qdnguyen118" target="_blank">
+        <img className="instagram" src="instagram.png" alt="instagram.png" />
+      </a>
       <a href="https://twitter.com/quangnguyen1501" target="_blank">
         <img className="twitter" src="twitter.png" alt="twitter.png" />
       </a>
