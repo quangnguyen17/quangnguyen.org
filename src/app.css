@@ -18,7 +18,7 @@ html {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1)),
     url('background.jpg');
   background-repeat: repeat;
   background-size: cover;
@@ -80,8 +80,8 @@ a:hover {
 }
 
 #profile {
-  width: 87.5px;
-  height: 87.5px;
+  width: 90px;
+  height: 90px;
 }
 
 .profile {
@@ -128,7 +128,7 @@ footer a {
 }
 
 .banner {
-  background-color: #e9dbd0;
+  background-color: #ddcec3;
   text-align: center;
   padding: 16px 32px;
 }
