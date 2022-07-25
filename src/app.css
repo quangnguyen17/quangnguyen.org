@@ -25,26 +25,24 @@ html {
   background-position: center;
 }
 
-#root {
+#root,
+.layout,
+.App {
   width: 100%;
   height: 100%;
 }
 
-.layout {
-  height: 100vh;
+.layout,
+.App {
   display: flex;
   flex-direction: column;
 }
 
 .App {
   flex: 1;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  overflow: auto;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
+  overflow: auto;
 }
 
 .App::-webkit-scrollbar {
