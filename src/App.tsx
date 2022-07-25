@@ -1,4 +1,23 @@
+import { FC } from 'react'
 import './app.css'
+
+interface SectionProps {
+  title?: string
+  data?: string[]
+}
+
+const Section: FC<SectionProps> = ({ title, data }) => (
+  <>
+    {title && <h2 className="headline">{title}</h2>}
+    {data && (
+      <div className="outlined-boxes">
+        {data.map((text, idx) => (
+          <p key={idx}>{text}</p>
+        ))}
+      </div>
+    )}
+  </>
+)
 
 const Banner = () => (
   <div className="banner">
@@ -28,7 +47,7 @@ const Body = () => (
     <h2 className="headline">Hi, I'm Quang.</h2>
     <div className="bio">
       <p>
-        An independent contractor/consultant offering a variety of software development services and
+        Independent contractor/consultant offering a variety of software development services and
         online learning to help others learn more about tech.
       </p>
       <p>
@@ -42,24 +61,78 @@ const Body = () => (
         +5 years of experience building real-world applications and dynamic backend systems using
         various tech stacks; wore multiple hats while juggling at numerous startups in the past;
         experienced working in various industries from telecommunication, entertainment and now
-        automotive.
+        automotive. Learn more about what I do on my{' '}
+        <a href="/resume.pdf" target="_blank">
+          resume
+        </a>
+        .
       </p>
-      <p>
-        Here's my <a href="/resume.pdf">resume</a>.
-      </p>
+      <p></p>
     </div>
-    <h2 className="headline">Services</h2>
-    <div className="services">
-      <p>E-commerce</p>
-      <p>Website</p>
-      <p>Web Apppcation</p>
-      <p>Mobile Apppcation</p>
-      <p>CRM System</p>
-      <p>Software as a service (SaaS)</p>
-      <p>Platform as a service (PaaS)</p>
-      <p>Mock Interview (Front End, Back End and System Design)</p>
-      <p>1:1 Computer Science Tutoring // Ask Me Anything</p>
-    </div>
+    <Section
+      title="Services I Offer"
+      data={[
+        'E-commerce',
+        'Website',
+        'Web Apppcation',
+        'Mobile Apppcation',
+        'CRM System',
+        'Mock Interview (Front End, Back End and System Design)',
+        '1:1 Computer Science Tutoring // Ask Me Anything',
+      ]}
+    />
+    <Section
+      title="Areas of Expertise"
+      data={[
+        'Web Application Development',
+        'Mobile Application Development',
+        'Front End Development',
+        'Back End Development',
+        'System Architecture',
+        'Distributed System',
+        'Cloud Computing',
+        'Database Design / Modeling',
+        'Software as a service (SaaS)',
+        'Platform as a service (PaaS)',
+      ]}
+    />
+    <Section
+      title="Frameworks & Libraries I Use"
+      data={[
+        'HTML',
+        'CSS',
+        'Javascript',
+        'Typescript',
+        'React',
+        'React Native',
+        'Vue',
+        'Angular',
+        'Material UI',
+        'Ant Design',
+        'Boostrap',
+        'TailwindCSS',
+        'Webpack',
+        'Babel',
+        'Vite',
+        'Microfrontend',
+        'Swift',
+        'Python',
+        'REST',
+        'GraphQL',
+        'Node',
+        'NPM (Node Package Manager)',
+        'Deno',
+        'Microservices',
+        'Serverless',
+        'Kubernetes',
+        'AWS (Amazon Web Services)',
+        'GCP (Google Cloud Platform)',
+        'Firebase',
+        'MongoDB',
+        'Realm',
+        'SQL',
+      ]}
+    />
     <h2 className="headline">Social</h2>
     <div className="social">
       <a href="https://github.com/quangnguyen17" target="_blank">
