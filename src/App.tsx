@@ -161,11 +161,13 @@ const Footer = () => (
 )
 
 const App = () => (
-  <div className="App">
+  <div className="layout">
+    <div className="App">
+      <Header />
+      <Body />
+      <Footer />
+    </div>
     <Banner />
-    <Header />
-    <Body />
-    <Footer />
   </div>
 )
 
