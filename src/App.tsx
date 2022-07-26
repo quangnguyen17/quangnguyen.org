@@ -97,7 +97,7 @@ const Body = () => (
       ]}
     />
     <Section
-      title="Frameworks & Libraries I Use"
+      title="Technologies & Frameworks I Use"
       data={[
         'HTML',
         'CSS',
@@ -120,13 +120,13 @@ const Body = () => (
         'REST',
         'GraphQL',
         'Node',
-        'NPM (Node Package Manager)',
+        'NPM',
         'Deno',
         'Microservices',
         'Serverless',
         'Kubernetes',
-        'AWS (Amazon Web Services)',
-        'GCP (Google Cloud Platform)',
+        'AWS',
+        'GCP',
         'Firebase',
         'MongoDB',
         'Realm',
