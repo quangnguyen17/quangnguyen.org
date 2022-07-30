@@ -10,9 +10,11 @@ const Section: FC<SectionProps> = ({ title, data }) => (
   <>
     {title && <h2 className="headline">{title}</h2>}
     {data && (
-      <div className="outlined-boxes">
+      <div>
         {data.map((text, idx) => (
-          <p key={idx}>{text}</p>
+          <p className="outlined-bubble" key={idx}>
+            {text}
+          </p>
         ))}
       </div>
     )}
@@ -35,7 +37,7 @@ const Banner = () => (
 const Header = () => (
   <header>
     <div className="heading">
-      <h1>QUANG NGUYEN</h1>
+      <h1>Quang Nguyen</h1>
       <p>Senior Software Engineer</p>
     </div>
     <img id="profile" src="profile.jpg" alt="profile.jpg" />
@@ -47,20 +49,13 @@ const Body = () => (
     <h2 className="headline">Hi, I'm Quang.</h2>
     <div className="bio">
       <p>
-        Independent contractor/consultant offering a variety of software development services and
-        online learning to help others learn more about tech.
-      </p>
-      <p>
-        <span>Senior Software Engineer at</span>{' '}
-        <a href="https://rivian.com/" target="_blank">
-          Rivian
-        </a>{' '}
-        based in the San Francisco Bay Area.
+        I'm an independent contractor/consultant offering a variety of software development services
+        and online learning to help others learn more about tech.
       </p>
       <p>
         +5 years of experience building real-world applications and dynamic backend systems using
         various tech stacks; wore multiple hats while juggling at numerous startups in the past;
-        experienced working in various industries from telecommunication, entertainment and now
+        experienced working in various industries from telecommunication, entertainmen to
         automotive. Learn more about what I do on my{' '}
         <a href="/resume.pdf" target="_blank">
           resume
@@ -116,6 +111,8 @@ const Body = () => (
         'Vite',
         'Microfrontend',
         'Swift',
+        'SwiftUI',
+        'UIKit',
         'Python',
         'REST',
         'GraphQL',
