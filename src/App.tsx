@@ -49,8 +49,9 @@ const Body = () => (
     <h2 className="headline">Hi, I'm Quang.</h2>
     <div className="bio">
       <p>
-        I'm an independent contractor/consultant offering a variety of software development services
-        and online learning to help others learn more about tech.
+        I'm an independent contractor/consultant based on Orange County Area, California. I offer a
+        variety of software development services and online learning to help others learn more about
+        tech.
       </p>
       <p>
         +5 years of experience building real-world applications and dynamic backend systems using
