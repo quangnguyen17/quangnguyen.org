@@ -2,7 +2,6 @@
 
 :root {
   --spacing: 1.6rem;
-  --border: 2px solid rgba(255, 255, 255, 0.25);
 }
 
 * {
@@ -161,10 +160,9 @@ a:hover {
 
 .outlined-bubble {
   display: inline-block;
-  margin-right: 12px;
-  margin-bottom: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   padding: 10px 20px;
   border-radius: 32px;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
