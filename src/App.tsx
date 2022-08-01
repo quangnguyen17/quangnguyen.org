@@ -51,19 +51,15 @@ const Body = () => (
       <p>
         I'm an independent contractor/consultant based on Orange County Area, California. I offer a
         variety of software development services and online learning to help others learn more about
-        tech.
-      </p>
-      <p>
-        +5 years of experience building real-world applications and dynamic backend systems using
-        various tech stacks; wore multiple hats while juggling at numerous startups in the past;
-        experienced working in various industries from telecommunication, entertainmen to
-        automotive. Learn more about what I do on my{' '}
+        tech; +5 years of experience building real-world applications and dynamic backend systems
+        using various tech stacks; wore multiple hats while juggling at numerous startups in the
+        past; experienced working in various industries from telecommunication, entertainment to
+        automotive. Learn more about my work{' '}
         <a href="/resume.pdf" target="_blank">
-          resume
+          here
         </a>
         .
       </p>
-      <p></p>
     </div>
     <Section
       title="Services I Offer"
