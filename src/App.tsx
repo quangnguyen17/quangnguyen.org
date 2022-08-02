@@ -10,7 +10,7 @@ const Section: FC<SectionProps> = ({ title, data }) => (
   <>
     {title && <h2 className="headline">{title}</h2>}
     {data && (
-      <div>
+      <div className="section">
         {data.map((text, idx) => (
           <p className="outlined-bubble" key={idx}>
             {text}

@@ -106,7 +106,6 @@ a:hover {
 #profile {
   width: 100px;
   height: 100px;
-  border-radius: 50px;
 }
 
 .profile {
@@ -158,11 +157,15 @@ a:hover {
   color: black;
 }
 
+.section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  align-items: flex-start;
+  gap: 10px;
+}
+
 .outlined-bubble {
   display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 10px;
   padding: 10px 20px;
-  border-radius: 32px;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
