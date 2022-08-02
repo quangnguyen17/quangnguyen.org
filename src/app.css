@@ -150,7 +150,7 @@ a:hover {
 .banner {
   background-color: rgb(243, 231, 235);
   text-align: center;
-  padding: calc(var(--spacing) * 1);
+  padding: calc(var(--spacing) * 0.75);
 }
 
 .banner * {
@@ -159,7 +159,7 @@ a:hover {
 
 .section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
   align-items: flex-start;
   gap: 10px;
 }
