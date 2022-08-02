@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import './app.css'
+import './App.css'
 
 interface SectionProps {
   title?: string
@@ -155,13 +155,11 @@ const Footer = () => (
 )
 
 const App = () => (
-  <div className="layout">
-    <div className="App">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
+  <div className="App">
     <Banner />
+    <Header />
+    <Body />
+    <Footer />
   </div>
 )
 
