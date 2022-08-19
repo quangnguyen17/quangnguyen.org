@@ -38,7 +38,7 @@ const Body = () => (
   <main>
     <div>
       <img id="profile" src="profile.jpg" alt="profile.jpg" />
-      <div style={{ marginTop: '0.3rem' }}>
+      <div style={{ marginTop: '0.8rem' }}>
         <h1 style={{ fontSize: '2.4rem', fontWeight: '600', marginBottom: '0.3rem' }}>
           Quang Nguyen
         </h1>
