@@ -2,6 +2,7 @@
 
 :root {
   --spacing: 1.6rem;
+  --text-link: #ffbb00;
 }
 
 * {
