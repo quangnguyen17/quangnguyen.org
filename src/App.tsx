@@ -34,19 +34,26 @@ const Banner = () => (
   </div>
 )
 
-const Header = () => (
-  <header>
-    <div className="heading">
-      <h1>Quang Nguyen</h1>
-      <p>Senior Software Engineer</p>
-    </div>
-    <img id="profile" src="profile.jpg" alt="profile.jpg" />
-  </header>
-)
-
 const Body = () => (
   <main>
-    <h2 className="headline">Hi, I'm Quang.</h2>
+    <div>
+      <img id="profile" src="profile.jpg" alt="profile.jpg" />
+      <div style={{ marginTop: '0.3rem' }}>
+        <h1 style={{ fontSize: '2.4rem', fontWeight: '600', marginBottom: '0.3rem' }}>
+          Quang Nguyen
+        </h1>
+        <p style={{ fontSize: '1.1rem', fontWeight: '300' }}>UI / Front End Engineer</p>
+        <div
+          style={{
+            marginTop: '0.4rem',
+            alignSelf: 'flex-start',
+            backgroundColor: 'white',
+            width: '100px',
+            height: '2px',
+          }}
+        ></div>
+      </div>
+    </div>
     <div className="bio">
       <p>
         I'm an independent contractor/consultant based on Orange County Area, California. I offer a
@@ -157,7 +164,6 @@ const Footer = () => (
 const App = () => (
   <div className="App">
     <Banner />
-    <Header />
     <Body />
     <Footer />
   </div>

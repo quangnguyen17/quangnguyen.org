@@ -17,11 +17,6 @@ html {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url('background.jpeg');
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 #root,
@@ -43,15 +38,6 @@ html {
   display: none; /* Safari and Chrome */
 }
 
-header {
-  background-color: rgba(255, 255, 255, 0.1);
-  padding: var(--spacing);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 footer {
   background-color: rgba(255, 255, 255, 0.1);
   padding: var(--spacing);
@@ -63,10 +49,6 @@ footer {
 
 footer a {
   height: 2rem;
-}
-
-h1 {
-  font-size: 2.3rem;
 }
 
 h2 {
@@ -99,8 +81,9 @@ a:hover {
 }
 
 #profile {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  border-radius: 70px;
+  aspect-ratio: 1/1;
 }
 
 .profile {
@@ -143,13 +126,9 @@ a:hover {
 }
 
 .banner {
-  background-color: rgb(249, 239, 237);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: calc(var(--spacing) * 0.7);
   text-align: center;
-}
-
-.banner * {
-  color: black;
 }
 
 .section {
@@ -163,5 +142,5 @@ a:hover {
 .outlined-bubble {
   display: inline-block;
   padding: 10px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
 }
