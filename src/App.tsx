@@ -42,7 +42,7 @@ const Body = () => (
         <h1 style={{ fontSize: '2.4rem', fontWeight: '600', marginBottom: '0.3rem' }}>
           Quang Nguyen
         </h1>
-        <p style={{ fontSize: '1.1rem', fontWeight: '300' }}>UI / Front End Engineer</p>
+        <p style={{ fontSize: '1.1rem', fontWeight: '300' }}>UI / Front End / Web Engineer</p>
         <div
           style={{
             marginTop: '0.5rem',
