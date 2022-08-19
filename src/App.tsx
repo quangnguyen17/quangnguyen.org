@@ -45,11 +45,11 @@ const Body = () => (
         <p style={{ fontSize: '1.1rem', fontWeight: '300' }}>UI / Front End Engineer</p>
         <div
           style={{
-            marginTop: '0.4rem',
+            marginTop: '0.5rem',
             alignSelf: 'flex-start',
-            backgroundColor: 'white',
+            backgroundColor: '#ffbb00',
             width: '100px',
-            height: '2px',
+            height: '3px',
           }}
         ></div>
       </div>
