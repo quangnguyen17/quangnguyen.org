@@ -1,10 +1,7 @@
-import './App.css'
-
 export default function App(): JSX.Element {
   return (
-    <div className="App">
-      <h1>🧑🏻‍💻</h1>
-      <p>hi, I'm Quang</p>
+    <>
+      <p>hi, I'm Quang 🧑🏻‍💻</p>
       <p>
         feel free to reach out to me on{' '}
         <a href="https://www.linkedin.com/in/quangnguyen2001/" target="_blank">
@@ -17,6 +14,6 @@ export default function App(): JSX.Element {
           resume
         </a>
       </p>
-    </div>
+    </>
   )
 }
